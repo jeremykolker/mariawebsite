@@ -9,6 +9,10 @@ function Home() {
      <li><Link to="contact">Click to view our contact page</Link></li>
      <li><Link to="services">Click to view our services page</Link></li>
       </ul>
+
+      <p> IG for Hair @marialinahair
+
+IG for Gigs- @maria_machete </p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Contact() {
             <h1>CONTACT INFO </h1> 
             <p> Mariehlina@gmail.com</p>
             <p> Phone 347-589-7300</p>
-        <p>Address - 71 Malcolm X Blvd, Brooklyn, NY 11206 </p>
+        <p>Address - 73 Malcolm X blvd, Brooklyn, NYC, 11221 </p>
 
         <ul>
         <li> <Link to="/">Click to view our home page</Link></li>
@@ -16,6 +16,9 @@ function Contact() {
      <li><Link to="/services">Click to view our services page</Link></li>
     
      </ul>
+     IG for Hair @marialinahair
+
+IG for Gigs- @maria_machete
         </div>
     )
 }
