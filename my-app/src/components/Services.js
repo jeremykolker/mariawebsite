@@ -7,10 +7,10 @@ function Services() {
             <h1>This is the service page</h1>
 
             <ul>
-            <li> <Link to="/about">Click to view our about page</Link></li>
-     <li><Link to="contact">Click to view our contact page</Link></li>
-     <li><Link to="services">Click to view our services page</Link></li>
-     <li> <Link to="/homet">Click to view our about page</Link></li>
+            <li> <Link to="/">Click to view our home page</Link></li>
+     <li><Link to="/contact">Click to view our contact page</Link></li>
+     <li><Link to="/services">Click to view our services page</Link></li>
+     <li> <Link to="/about">Click to view our about page</Link></li>
      </ul>
         </div>
     )
