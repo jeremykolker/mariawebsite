@@ -1,25 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ServicesPage from './pages/ServicesPage';
-import ContactPage from './pages/ContactPage';
-import OtherPage from './pages/OtherPage';
+import { Routes, Route } from "react-router-dom"
+import Home from "./components/Home.js"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Services from "./components/Services"
 
-const App = () => {
+function App() {
   return (
-    <Router>
+    <div className="App">
       <Routes>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={AboutPage} />
-        <Route path="/services" component={ServicesPage} />
-        <Route path="/contact" component={ContactPage} />
-        <Route path="/other" component={OtherPage} />
-        {/* Add a 404 Not Found page for any other unrecognized route */}
-        <Route component={NotFoundPage} />
+        <Route path="/" element={ <Home/> } />
+        <Route path="about" element={ <About/> } />
+        <Route path="contact" element={ <Contact/> } />
+        <Route path="services" element={ <Services/> } />
       </Routes>
-    </Router>
-  );
-};
+    </div>
+  )
+}
 
-export default App;
+export default App
