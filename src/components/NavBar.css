@@ -27,7 +27,7 @@ margin-top: 10px;
   margin-top: 20px;
   list-style:none;
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 60px;
   text-align: left;
 }
@@ -98,16 +98,16 @@ text-align: left;
   align-items: center;
   width: 100%;
   height: 160px;
-  max-width: 1500px;
+  
 }
 
 .nav-logo {
   color: black;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   flex-grow: 1;
 }
 
@@ -135,15 +135,18 @@ text-align: left;
 }
 
 .nav-item:after {
+ 
   content: "";
   display: block;
   height: 3px;
   width: 0;
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
+  
 }
 
 .nav-item:hover:after {
+
   width: 100%;
   background: black;
 }
@@ -185,6 +188,15 @@ text-align: left;
     padding: 1.5rem;
     width: 100%;
     display: table;
+  }
+  .nav-logo{
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    left: 0;
+    font-size: 1rem;
+
+
   }
 
   .nav-icon {

@@ -13,6 +13,8 @@ export const Contact = () => {
       <div className="contact-card">
        
         <ul>
+        <li><a href="mailto:djmarialinahair@gmail.com?subject=DJMARIALINA%20HAIRSTYLING">DJMariaLinaHair</a>
+</li>
         <li>Phone: (646) 535-9812</li>
           <li>Address: 71 Malcolm X Blvd, Brooklyn, NYC 11206</li>
         
@@ -28,8 +30,7 @@ export const Contact = () => {
             </a>
           </li>
         
-            <li><a href="mailto:djmarialinahair@gmail.com?subject=DJMARIALINA%20HAIRSTYLING">DJMariaLinaHair@gmail.com</a>
-</li>
+            
             </ul>
           
         

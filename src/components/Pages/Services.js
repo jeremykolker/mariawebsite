@@ -11,6 +11,9 @@ export const Services = () => {
  <div class="services-container">
   
  <img src={photo} alt="photo" className="responsive-image" />
+ <div className="photocred">
+       <p>illustration by Crystal Lee Kovacs</p>
+       </div>
  <br></br>
   <div class="service-card">
     <h3>HAIRCUT SERVICES</h3>

@@ -21,10 +21,10 @@
 
   .footer-logo {
     color: black;
-    margin-right: 20px;
+    
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   .footer-menu {
@@ -56,16 +56,35 @@
   
 
   .logo{
-    width: 400px;
+    width: 300px;
     height: auto;
   }
 
   .links{
+
 display: flex;
+justify-content: center;
+
+
     text-align: center;
-    padding: 10px;
-    flex-direction: column;
+ 
+    margin: 10px;
+    flex-direction:row;
+    row-gap: 10px;
+    content: icon;
+   align-items: center;
+   align-self: center;
+   margin: auto;
+    font-size: larger;
    
-    font-size: 2rem
+    
+  }
+
+
+  .footiconinsta{
+    margin: 10px
+  }
+
+  .footer-icons{
     
   }

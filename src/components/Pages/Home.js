@@ -22,6 +22,10 @@ export const Home = () => {
 
       <div className="image-container">
       <img src={photo} alt="photo" className="responsive-image" />
+      <div className="photocred">
+       <p>illustration by Crystal Lee Kovacs</p>
+       </div>
+
         <img src={photo1} alt="photo1" className="responsive-image" />
         <img src={photo2} alt="photo2" className="responsive-image" />
         <img src={photo3} alt="photo3" className="responsive-image" />
@@ -34,7 +38,12 @@ export const Home = () => {
         <img src={photo10} alt="photo10" className="responsive-image" />
         <img src={photo12} alt="photo12" className="responsive-image" />
         <img src={photo11} alt="photo11" className="responsive-image" />
+        <div className="photocred">
+       <p>photograph by Nick McManus</p>
+       </div>
       </div>
+     
+
       </div>
     </div>
   );

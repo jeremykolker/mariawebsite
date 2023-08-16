@@ -21,6 +21,13 @@ h1{
     font-size: 30px; /* Adjust the font size for smaller screens */
     margin-bottom: 30px; /* Adjust the margin for smaller screens */
   }
+
+  .responsive-image{
+    max-height: auto;
+    max-width: 360px; 
+  z-index: 0;
+    border: 2px solid black;
+  }
 }
 /* Apply a small black border to all images */
 .responsive-image{
@@ -30,10 +37,9 @@ h1{
 
   .responsive-image-about {
     border: 2px solid black;
-    align-self: center;
     max-height: auto;
-   
-    max-width: 400px; /* Set the desired width for the images */
+    max-width: 380px; /* Set the desired width for the images */
+    z-index: 0;
   }
   
   /* Make images responsive by setting their max height to 100vh */
@@ -55,12 +61,16 @@ h1{
     max-height: auto;
     margin-top: 7px;
     margin-bottom: 10px;
-    max-width: 450px; /* Set the desired width for the images */
-    
+    max-width:390px; /* Set the desired width for the images */
+    z-index: -2;
   }
 
   .photocredit{
     font-size: small;
+  }
+
+  .photocred{
+    margin-top: 0;
   }
   
  
