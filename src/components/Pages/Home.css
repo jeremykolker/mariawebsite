@@ -1,0 +1,66 @@
+/* Home.css */
+.instagram-small {
+  width: 50 px; /* Adjust the width to make the icon smaller */
+  height: auto;
+}
+
+.scheduling{
+  font-size: 40px;
+}
+h1{
+   margin: 10px;
+   font-size: 80px;
+   text-align: center;
+   padding-left: 40px;
+   padding-right: 40px;
+  /* display: flex; */
+   font-display: center;
+}
+@media (max-width: 650px) {
+  h1 {
+    font-size: 30px; /* Adjust the font size for smaller screens */
+    margin-bottom: 30px; /* Adjust the margin for smaller screens */
+  }
+}
+/* Apply a small black border to all images */
+.responsive-image{
+  
+    border: 2px solid black;
+  }
+
+  .responsive-image-about {
+    border: 2px solid black;
+    align-self: center;
+    max-height: auto;
+   
+    max-width: 400px; /* Set the desired width for the images */
+  }
+  
+  /* Make images responsive by setting their max height to 100vh */
+  .image-container {
+
+    margin-top: 7px;
+    margin-bottom: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .responsive-image {
+    border: 2px solid black;
+    align-self: center;
+    max-height: auto;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    max-width: 450px; /* Set the desired width for the images */
+    
+  }
+
+  .photocredit{
+    font-size: small;
+  }
+  
+ 
